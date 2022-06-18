@@ -15,13 +15,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter acronym" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GX2-AS-G52">
+                                <rect key="frame" x="20" y="64" width="200" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.81979119860000005" blue="0.96659659720000002" alpha="0.26584064407853891" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="GTg-nU-FPc"/>
+                                    <constraint firstAttribute="height" constant="35" id="NM1-Cg-CXd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jV-3c-Yn8">
+                                <rect key="frame" x="230" y="64" width="70" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Submit"/>
+                                <connections>
+                                    <action selector="submitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DWz-6E-zGT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9jV-3c-Yn8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cS5-T6-xQx"/>
+                            <constraint firstItem="GX2-AS-G52" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fkh-Z8-y9J"/>
+                            <constraint firstItem="GX2-AS-G52" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hPe-RN-fMD"/>
+                            <constraint firstItem="9jV-3c-Yn8" firstAttribute="leading" secondItem="GX2-AS-G52" secondAttribute="trailing" constant="10" id="pOm-zy-SL4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="acronymLabel" destination="GX2-AS-G52" id="VAo-Cw-cGT"/>
+                        <outlet property="submitBtn" destination="9jV-3c-Yn8" id="dFU-eb-eGe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="42"/>
+            <point key="canvasLocation" x="28.985507246376812" y="41.517857142857139"/>
         </scene>
     </scenes>
     <resources>

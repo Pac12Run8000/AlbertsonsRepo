@@ -13,7 +13,18 @@
 		0974FFA2285E2FFA0095A2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0974FFA0285E2FFA0095A2D6 /* Main.storyboard */; };
 		0974FFA4285E2FFC0095A2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974FFA3285E2FFC0095A2D6 /* Assets.xcassets */; };
 		0974FFA7285E2FFC0095A2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0974FFA5285E2FFC0095A2D6 /* LaunchScreen.storyboard */; };
+		0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0974FFB8285E45E20095A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0974FF8F285E2FFA0095A2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0974FF96285E2FFA0095A2D6;
+			remoteInfo = AlbertsonsProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0974FF97285E2FFA0095A2D6 /* AlbertsonsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbertsonsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,19 @@
 		0974FFA3285E2FFC0095A2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0974FFA6285E2FFC0095A2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0974FFA8285E2FFC0095A2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0974FFB4285E45E20095A2D6 /* AlbertsonsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbertsonsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertsonsProjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0974FF94285E2FFA0095A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974FFB1285E45E20095A2D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0974FF99285E2FFA0095A2D6 /* AlbertsonsProject */,
+				0974FFB5285E45E20095A2D6 /* AlbertsonsProjectTests */,
 				0974FF98285E2FFA0095A2D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				0974FF97285E2FFA0095A2D6 /* AlbertsonsProject.app */,
+				0974FFB4285E45E20095A2D6 /* AlbertsonsProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +105,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		0974FFB5285E45E20095A2D6 /* AlbertsonsProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */,
+			);
+			path = AlbertsonsProjectTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +133,24 @@
 			productReference = 0974FF97285E2FFA0095A2D6 /* AlbertsonsProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0974FFB3285E45E20095A2D6 /* AlbertsonsProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0974FFBA285E45E20095A2D6 /* Build configuration list for PBXNativeTarget "AlbertsonsProjectTests" */;
+			buildPhases = (
+				0974FFB0285E45E20095A2D6 /* Sources */,
+				0974FFB1285E45E20095A2D6 /* Frameworks */,
+				0974FFB2285E45E20095A2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0974FFB9285E45E20095A2D6 /* PBXTargetDependency */,
+			);
+			name = AlbertsonsProjectTests;
+			productName = AlbertsonsProjectTests;
+			productReference = 0974FFB4285E45E20095A2D6 /* AlbertsonsProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +163,10 @@
 				TargetAttributes = {
 					0974FF96285E2FFA0095A2D6 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					0974FFB3285E45E20095A2D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0974FF96285E2FFA0095A2D6;
 					};
 				};
 			};
@@ -132,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				0974FF96285E2FFA0095A2D6 /* AlbertsonsProject */,
+				0974FFB3285E45E20095A2D6 /* AlbertsonsProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +197,13 @@
 				0974FFA7285E2FFC0095A2D6 /* LaunchScreen.storyboard in Resources */,
 				0974FFA4285E2FFC0095A2D6 /* Assets.xcassets in Resources */,
 				0974FFA2285E2FFA0095A2D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974FFB2285E45E20095A2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +220,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0974FFB0285E45E20095A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0974FFB9285E45E20095A2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0974FF96285E2FFA0095A2D6 /* AlbertsonsProject */;
+			targetProxy = 0974FFB8285E45E20095A2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0974FFA0285E2FFA0095A2D6 /* Main.storyboard */ = {
@@ -352,6 +428,42 @@
 			};
 			name = Release;
 		};
+		0974FFBB285E45E20095A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TAG27MAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GroverTech.AlbertsonsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbertsonsProject.app/AlbertsonsProject";
+			};
+			name = Debug;
+		};
+		0974FFBC285E45E20095A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TAG27MAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GroverTech.AlbertsonsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlbertsonsProject.app/AlbertsonsProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +481,15 @@
 			buildConfigurations = (
 				0974FFAC285E2FFC0095A2D6 /* Debug */,
 				0974FFAD285E2FFC0095A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0974FFBA285E45E20095A2D6 /* Build configuration list for PBXNativeTarget "AlbertsonsProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0974FFBB285E45E20095A2D6 /* Debug */,
+				0974FFBC285E45E20095A2D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
