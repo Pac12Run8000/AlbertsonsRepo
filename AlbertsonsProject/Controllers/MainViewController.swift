@@ -17,6 +17,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.lf.rawValue:"MI"]))
     }
 
     @IBAction func submitAction(_ sender: Any) {

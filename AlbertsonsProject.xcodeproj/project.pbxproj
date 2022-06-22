@@ -14,6 +14,10 @@
 		0974FFA4285E2FFC0095A2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974FFA3285E2FFC0095A2D6 /* Assets.xcassets */; };
 		0974FFA7285E2FFC0095A2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0974FFA5285E2FFC0095A2D6 /* LaunchScreen.storyboard */; };
 		0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */; };
+		0974FFBF285E4CD60095A2D6 /* acronymObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFBE285E4CD60095A2D6 /* acronymObjectModel.swift */; };
+		0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC1286338700095A2D6 /* NetworkingManager.swift */; };
+		0974FFC5286339170095A2D6 /* URLComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC4286339170095A2D6 /* URLComponentConstants.swift */; };
+		0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		0974FFA8285E2FFC0095A2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0974FFB4285E45E20095A2D6 /* AlbertsonsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbertsonsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertsonsProjectTests.swift; sourceTree = "<group>"; };
+		0974FFBE285E4CD60095A2D6 /* acronymObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acronymObjectModel.swift; sourceTree = "<group>"; };
+		0974FFC1286338700095A2D6 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		0974FFC4286339170095A2D6 /* URLComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentConstants.swift; sourceTree = "<group>"; };
+		0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEnumConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,9 @@
 		0974FF99285E2FFA0095A2D6 /* AlbertsonsProject */ = {
 			isa = PBXGroup;
 			children = (
+				0974FFC3286338D80095A2D6 /* Helpers */,
+				0974FFC02863384D0095A2D6 /* NetworkingManager */,
+				0974FFBD285E4CA90095A2D6 /* Models */,
 				0974FFAF285E41A20095A2D6 /* Controllers */,
 				0974FFAE285E41980095A2D6 /* Views */,
 				0974FF9A285E2FFA0095A2D6 /* AppDelegate.swift */,
@@ -111,6 +122,31 @@
 				0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */,
 			);
 			path = AlbertsonsProjectTests;
+			sourceTree = "<group>";
+		};
+		0974FFBD285E4CA90095A2D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFBE285E4CD60095A2D6 /* acronymObjectModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0974FFC02863384D0095A2D6 /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFC1286338700095A2D6 /* NetworkingManager.swift */,
+			);
+			path = NetworkingManager;
+			sourceTree = "<group>";
+		};
+		0974FFC3286338D80095A2D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFC4286339170095A2D6 /* URLComponentConstants.swift */,
+				0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974FFBF285E4CD60095A2D6 /* acronymObjectModel.swift in Sources */,
+				0974FFC5286339170095A2D6 /* URLComponentConstants.swift in Sources */,
+				0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */,
 				0974FF9F285E2FFA0095A2D6 /* MainViewController.swift in Sources */,
 				0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */,
+				0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */,
 				0974FF9D285E2FFA0095A2D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
