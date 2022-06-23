@@ -18,6 +18,8 @@
 		0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC1286338700095A2D6 /* NetworkingManager.swift */; };
 		0974FFC5286339170095A2D6 /* URLComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC4286339170095A2D6 /* URLComponentConstants.swift */; };
 		0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */; };
+		0974FFCD2863B9280095A2D6 /* MainControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFCC2863B9280095A2D6 /* MainControllerViewModel.swift */; };
+		0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0974FFC1286338700095A2D6 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		0974FFC4286339170095A2D6 /* URLComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentConstants.swift; sourceTree = "<group>"; };
 		0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEnumConstants.swift; sourceTree = "<group>"; };
+		0974FFCC2863B9280095A2D6 /* MainControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerViewModel.swift; sourceTree = "<group>"; };
+		0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUrlComponentConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		0974FF99285E2FFA0095A2D6 /* AlbertsonsProject */ = {
 			isa = PBXGroup;
 			children = (
+				0974FFCB2863B9010095A2D6 /* ViewModels */,
 				0974FFC3286338D80095A2D6 /* Helpers */,
 				0974FFC02863384D0095A2D6 /* NetworkingManager */,
 				0974FFBD285E4CA90095A2D6 /* Models */,
@@ -119,6 +124,7 @@
 		0974FFB5285E45E20095A2D6 /* AlbertsonsProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				0974FFCE2863D5EB0095A2D6 /* Helpers */,
 				0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */,
 			);
 			path = AlbertsonsProjectTests;
@@ -145,6 +151,22 @@
 			children = (
 				0974FFC4286339170095A2D6 /* URLComponentConstants.swift */,
 				0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0974FFCB2863B9010095A2D6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFCC2863B9280095A2D6 /* MainControllerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0974FFCE2863D5EB0095A2D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -255,6 +277,7 @@
 				0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */,
 				0974FF9F285E2FFA0095A2D6 /* MainViewController.swift in Sources */,
 				0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */,
+				0974FFCD2863B9280095A2D6 /* MainControllerViewModel.swift in Sources */,
 				0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */,
 				0974FF9D285E2FFA0095A2D6 /* SceneDelegate.swift in Sources */,
 			);
@@ -265,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */,
+				0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,15 +9,13 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    
     @IBOutlet weak var acronymLabel: UITextField!
-    
     @IBOutlet weak var submitBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.lf.rawValue:"MI"]))
+        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MA"]))
     }
 
     @IBAction func submitAction(_ sender: Any) {
