@@ -19,12 +19,12 @@ class MainViewController: UIViewController {
         
 //        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MA"]))
         
-        do {
-       var valid = try "5432&&#??".validCharactersForAcronymAPICall()
-            print(valid)
-        } catch {
-            print(error)
-        }
+//        do {
+//       var valid = try "5432&&#??".validCharactersForAcronymAPICall()
+//            print(valid)
+//        } catch {
+//            print(error)
+//        }
     }
 
     @IBAction func submitAction(_ sender: Any) {

@@ -15,7 +15,26 @@ extension ValidInputError:CustomStringConvertible {
     var description: String {
         switch self {
         case .noValidInput:
-            return "There were no valid letter characters for the acronym."
+            return "There were no valid letter characters present to create an acronym."
+        }
+    }
+}
+
+enum APICallError:Error {
+    case noUrlData
+    case noURL
+    case badResponseFromAPI
+}
+
+extension APICallError:CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .noUrlData:
+            return "No data was returned from the call."
+        case .noURL:
+            return "No URL was passed to the NetworkManager."
+        case .badResponseFromAPI:
+            return "The status code response was not 200"
         }
     }
     

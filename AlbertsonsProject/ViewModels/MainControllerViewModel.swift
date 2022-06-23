@@ -8,11 +8,10 @@
 import Foundation
 
 class MainControllerViewModel {
-    var params:[String:String]
+    var params:[String:String]?
     var url:URL?
-    init(params:[String:String]) {
-        self.params = params
-        self.url = URLComponentConstants.createURLWithComponents(queryParameters: params)?.url ?? nil
-    }
+    
+    
+    
     
 }

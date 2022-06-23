@@ -22,6 +22,7 @@
 		0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */; };
 		0974FFD52864BB610095A2D6 /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD42864BB610095A2D6 /* InputValidation.swift */; };
 		0974FFD72864BFF80095A2D6 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD62864BFF80095A2D6 /* CustomErrors.swift */; };
+		0974FFD92864E99A0095A2D6 /* testInputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD82864E99A0095A2D6 /* testInputValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUrlComponentConstants.swift; sourceTree = "<group>"; };
 		0974FFD42864BB610095A2D6 /* InputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidation.swift; sourceTree = "<group>"; };
 		0974FFD62864BFF80095A2D6 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		0974FFD82864E99A0095A2D6 /* testInputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testInputValidation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */,
+				0974FFD82864E99A0095A2D6 /* testInputValidation.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */,
 				0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */,
+				0974FFD92864E99A0095A2D6 /* testInputValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
