@@ -20,6 +20,8 @@
 		0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */; };
 		0974FFCD2863B9280095A2D6 /* MainControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFCC2863B9280095A2D6 /* MainControllerViewModel.swift */; };
 		0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */; };
+		0974FFD52864BB610095A2D6 /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD42864BB610095A2D6 /* InputValidation.swift */; };
+		0974FFD72864BFF80095A2D6 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD62864BFF80095A2D6 /* CustomErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEnumConstants.swift; sourceTree = "<group>"; };
 		0974FFCC2863B9280095A2D6 /* MainControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerViewModel.swift; sourceTree = "<group>"; };
 		0974FFD22863D65F0095A2D6 /* testUrlComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUrlComponentConstants.swift; sourceTree = "<group>"; };
+		0974FFD42864BB610095A2D6 /* InputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidation.swift; sourceTree = "<group>"; };
+		0974FFD62864BFF80095A2D6 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 			children = (
 				0974FFC4286339170095A2D6 /* URLComponentConstants.swift */,
 				0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */,
+				0974FFD42864BB610095A2D6 /* InputValidation.swift */,
+				0974FFD62864BFF80095A2D6 /* CustomErrors.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -273,9 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0974FFBF285E4CD60095A2D6 /* acronymObjectModel.swift in Sources */,
+				0974FFD72864BFF80095A2D6 /* CustomErrors.swift in Sources */,
 				0974FFC5286339170095A2D6 /* URLComponentConstants.swift in Sources */,
 				0974FFC72863795A0095A2D6 /* URLEnumConstants.swift in Sources */,
 				0974FF9F285E2FFA0095A2D6 /* MainViewController.swift in Sources */,
+				0974FFD52864BB610095A2D6 /* InputValidation.swift in Sources */,
 				0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */,
 				0974FFCD2863B9280095A2D6 /* MainControllerViewModel.swift in Sources */,
 				0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */,

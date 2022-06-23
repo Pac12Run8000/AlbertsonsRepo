@@ -12,3 +12,8 @@ enum URLQueryName:String {
     case sf
     case lf
 }
+
+enum APIErrors:Error {
+case taskError(err:Error)
+    
+}

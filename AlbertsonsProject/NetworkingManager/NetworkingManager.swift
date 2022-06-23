@@ -12,4 +12,8 @@ class NetworkingManager {
     
     static let shared = NetworkingManager()
     
+    public func makeAPICall(completion:@escaping() -> ()) {
+        
+    }
+    
 }

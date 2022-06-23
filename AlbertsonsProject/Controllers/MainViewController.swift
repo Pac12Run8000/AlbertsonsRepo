@@ -15,7 +15,16 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MA"]))
+        
+        
+//        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MA"]))
+        
+        do {
+       var valid = try "5432&&#??".validCharactersForAcronymAPICall()
+            print(valid)
+        } catch {
+            print(error)
+        }
     }
 
     @IBAction func submitAction(_ sender: Any) {
