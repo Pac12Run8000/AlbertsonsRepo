@@ -14,17 +14,21 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        MainControllerViewModel.fetchAPIData(key: .sf, value: "MI") { result in
+            switch result {
+            case .failure(let err):
+                print("Err: \(err)")
+            case .success(let data):
+                print("Data:\(data)")
+            }
+        }
         
-        
-        
-//        print(URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MA"]))
-        
-//        do {
-//       var valid = try "5432&&#??".validCharactersForAcronymAPICall()
-//            print(valid)
-//        } catch {
-//            print(error)
+//        guard let url = URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MI"])?.url else {return}
+//        NetworkingManager.shared.makeAPICall(url: url) { result in
+//            
 //        }
+        
+
     }
 
     @IBAction func submitAction(_ sender: Any) {
