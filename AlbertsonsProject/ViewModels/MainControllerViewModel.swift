@@ -8,9 +8,7 @@
 import Foundation
 
 class MainControllerViewModel {
-    
     init() {}
-    
     static func fetchAPIData(key:URLQueryName, value:String, completion:@escaping(Result<Data, APICallError>) -> ()) {
         guard let url = URLComponentConstants.createURLWithComponents(queryParameters: [key.rawValue:value])?.url else {
             completion(.failure(.noURL))

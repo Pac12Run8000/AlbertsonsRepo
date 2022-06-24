@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091BFCF628659C5000FA0A75 /* testNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091BFCF528659C5000FA0A75 /* testNetworkManager.swift */; };
 		0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9A285E2FFA0095A2D6 /* AppDelegate.swift */; };
 		0974FF9D285E2FFA0095A2D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9C285E2FFA0095A2D6 /* SceneDelegate.swift */; };
 		0974FF9F285E2FFA0095A2D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9E285E2FFA0095A2D6 /* MainViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091BFCF528659C5000FA0A75 /* testNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testNetworkManager.swift; sourceTree = "<group>"; };
 		0974FF97285E2FFA0095A2D6 /* AlbertsonsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbertsonsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0974FF9A285E2FFA0095A2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0974FF9C285E2FFA0095A2D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091BFCF428659C2C00FA0A75 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				091BFCF528659C5000FA0A75 /* testNetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		0974FF8E285E2FFA0095A2D6 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		0974FFB5285E45E20095A2D6 /* AlbertsonsProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				091BFCF428659C2C00FA0A75 /* NetworkManager */,
 				0974FFCE2863D5EB0095A2D6 /* Helpers */,
 				0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */,
 			);
@@ -298,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091BFCF628659C5000FA0A75 /* testNetworkManager.swift in Sources */,
 				0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */,
 				0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */,
 				0974FFD92864E99A0095A2D6 /* testInputValidation.swift in Sources */,
