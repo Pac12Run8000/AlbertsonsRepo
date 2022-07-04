@@ -7,6 +7,22 @@
 
 import Foundation
 
+enum JSONParsError:Error {
+    case notConformingToModel(object: String)
+}
+
+extension JSONParsError:CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .notConformingToModel(let object):
+            return "The data doesn't conform to the \(object) model."
+        }
+    }
+    
+    
+}
+
+
 enum ValidInputError:Error {
     case noValidInput
 }

@@ -11,6 +11,7 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var acronymLabel: UITextField!
     @IBOutlet weak var submitBtn: UIButton!
+    var objectOutput:AcronymObject?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,14 +20,11 @@ class MainViewController: UIViewController {
             case .failure(let err):
                 print("Err: \(err)")
             case .success(let data):
-                print("Data:\(data)")
+                self.objectOutput = try? JsonParser.parseData(data: data)
             }
         }
         
-//        guard let url = URLComponentConstants.createURLWithComponents(queryParameters: [URLQueryName.sf.rawValue:"MI"])?.url else {return}
-//        NetworkingManager.shared.makeAPICall(url: url) { result in
-//            
-//        }
+
         
 
     }
@@ -36,4 +34,5 @@ class MainViewController: UIViewController {
     }
     
 }
+
 

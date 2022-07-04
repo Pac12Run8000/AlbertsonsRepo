@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		091BFCF628659C5000FA0A75 /* testNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091BFCF528659C5000FA0A75 /* testNetworkManager.swift */; };
+		091BFCF9286735E000FA0A75 /* MainViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091BFCF8286735E000FA0A75 /* MainViewControllerTest.swift */; };
 		0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9A285E2FFA0095A2D6 /* AppDelegate.swift */; };
 		0974FF9D285E2FFA0095A2D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9C285E2FFA0095A2D6 /* SceneDelegate.swift */; };
 		0974FF9F285E2FFA0095A2D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FF9E285E2FFA0095A2D6 /* MainViewController.swift */; };
@@ -24,6 +25,7 @@
 		0974FFD52864BB610095A2D6 /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD42864BB610095A2D6 /* InputValidation.swift */; };
 		0974FFD72864BFF80095A2D6 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD62864BFF80095A2D6 /* CustomErrors.swift */; };
 		0974FFD92864E99A0095A2D6 /* testInputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974FFD82864E99A0095A2D6 /* testInputValidation.swift */; };
+		09B1F3E428737781004F048F /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1F3E328737781004F048F /* JsonParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		091BFCF528659C5000FA0A75 /* testNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testNetworkManager.swift; sourceTree = "<group>"; };
+		091BFCF8286735E000FA0A75 /* MainViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTest.swift; sourceTree = "<group>"; };
 		0974FF97285E2FFA0095A2D6 /* AlbertsonsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbertsonsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0974FF9A285E2FFA0095A2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0974FF9C285E2FFA0095A2D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		0974FFD42864BB610095A2D6 /* InputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidation.swift; sourceTree = "<group>"; };
 		0974FFD62864BFF80095A2D6 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		0974FFD82864E99A0095A2D6 /* testInputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testInputValidation.swift; sourceTree = "<group>"; };
+		09B1F3E328737781004F048F /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,14 @@
 				091BFCF528659C5000FA0A75 /* testNetworkManager.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		091BFCF7286735BA00FA0A75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				091BFCF8286735E000FA0A75 /* MainViewControllerTest.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		0974FF8E285E2FFA0095A2D6 = {
@@ -140,6 +152,7 @@
 		0974FFB5285E45E20095A2D6 /* AlbertsonsProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				091BFCF7286735BA00FA0A75 /* Controllers */,
 				091BFCF428659C2C00FA0A75 /* NetworkManager */,
 				0974FFCE2863D5EB0095A2D6 /* Helpers */,
 				0974FFB6285E45E20095A2D6 /* AlbertsonsProjectTests.swift */,
@@ -170,6 +183,7 @@
 				0974FFC62863795A0095A2D6 /* URLEnumConstants.swift */,
 				0974FFD42864BB610095A2D6 /* InputValidation.swift */,
 				0974FFD62864BFF80095A2D6 /* CustomErrors.swift */,
+				09B1F3E328737781004F048F /* JsonParser.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -301,6 +315,7 @@
 				0974FF9B285E2FFA0095A2D6 /* AppDelegate.swift in Sources */,
 				0974FFCD2863B9280095A2D6 /* MainControllerViewModel.swift in Sources */,
 				0974FFC2286338700095A2D6 /* NetworkingManager.swift in Sources */,
+				09B1F3E428737781004F048F /* JsonParser.swift in Sources */,
 				0974FF9D285E2FFA0095A2D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +327,7 @@
 				091BFCF628659C5000FA0A75 /* testNetworkManager.swift in Sources */,
 				0974FFB7285E45E20095A2D6 /* AlbertsonsProjectTests.swift in Sources */,
 				0974FFD32863D65F0095A2D6 /* testUrlComponentConstants.swift in Sources */,
+				091BFCF9286735E000FA0A75 /* MainViewControllerTest.swift in Sources */,
 				0974FFD92864E99A0095A2D6 /* testInputValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
