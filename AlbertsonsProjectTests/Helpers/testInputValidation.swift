@@ -24,11 +24,8 @@ class testInputValidation: XCTestCase {
     }
 
     func testValidCharactersForAcronymAPICall() throws {
-        guard let output = try? passString?.validCharactersForAcronymAPICall() as? String else {
-            return
-        }
+        let output = try? passString?.validCharactersForAcronymAPICall()
         XCTAssertEqual(output, "OR")
-        
     }
     
     func testValidCharactersForAcronymAPICallThatThrows() throws {

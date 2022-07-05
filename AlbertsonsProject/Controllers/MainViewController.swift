@@ -21,11 +21,11 @@ class MainViewController: UIViewController {
                 print("Err: \(err)")
             case .success(let data):
                 self.objectOutput = try? JsonParser.parseData(data: data)
+                for item in self.objectOutput![0].lfs {
+                    print(item.lf)
+                }
             }
         }
-        
-
-        
 
     }
 
